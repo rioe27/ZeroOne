@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Post;
+use App\Models\Posts;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -21,8 +22,8 @@ class PostController extends Controller
            ]);
     }
 
-    public function tampil(){
-        $data= Posts::select('*')->get();
-        return view('post.blade',['post'=>$post]);
-    }
+   // public function tampil(){
+    //    $data= Posts::select('*')->get();
+    //    return view('post.blade',['post'=>$post]);
+   // }
 }

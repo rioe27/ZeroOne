@@ -5,9 +5,9 @@
 <h1 class="mb-5">Halaman Blog Posts</h1>
 
 <article>
-<h2>{{ $post["title"]}}</h2>
+<h2>{{ $post->title}}</h2>
 
-<h2>{{ $post["body"]}}</h2>
+{{ $post->body}}
 </article>
 <a href="/blog">Back Home</a>
 @endsection
