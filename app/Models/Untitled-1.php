@@ -1,9 +1,0 @@
-<?php Post::create(
-    'title'=>'ke empat',
-    'excerpt'=>'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, tempore.',
-    'body'=>'<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sunt dolores exercitationem reiciendis doloribus, inventore rerum fuga saepe esse.</p> 
-    Aspernatur dolorem accusamus earum aut dicta, deleniti repellendus? Dicta cumque molestiae commodi esse provident tempore labore corporis voluptatibus, explicabo accusantium non nemo obcaecati, recusandae eius consequatur earum. Quisquam dolorum iusto nisi quibusdam accusantium sapiente veritatis voluptatibus voluptatum earum? Nobis molestias deleniti incidunt aliquid excepturi sint vel expedita unde nulla aut, necessitatibus velit eaque totam fuga distinctio a qui sit atque dolores eveniet magnam nostrum.</p> <p>Aliquam mollitia rem et recusandae distinctio inventore fugit corrupti autem accusantium eligendi commodi soluta, animi eveniet fuga saepe maiores, non consequatur cumque dolore sapiente iusto reprehenderit! Quibusdam neque dolorem sapiente, mollitia, consequuntur exercitationem quo saepe dicta provident cum omnis ducimus ipsum magni id magnam. Sapiente quas quaerat aliquid expedita illo velit aspernatur? Recusandae excepturi animi autem quia nostrum accusantium pariatur, voluptates optio quibusdam quas in quos corporis, praesentium cum dolore harum omnis corrupti vitae sint? Recusandae voluptatem maiores aliquid necessitatibus ratione eum magnam nam adipisci aspernatur, eveniet, labore expedita voluptate, soluta facere excepturi cum at porro saepe! Enim corrupti distinctio modi esse aspernatur, tenetur dolorem doloremque, rem repudiandae laborum nemo aperiam alias nostrum corporis ad? Veniam, accusamus.
-    </p>'
-
-)
-?>

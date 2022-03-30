@@ -13,4 +13,8 @@ class Posts extends Model
     //protected $table="posts";
    // protected $primaryKey="id";
    // protected $fillable = ['title','excerpt','body'];
+
+   public function category(){
+       return $this->belongsTo(category::class);
+   }
 }
