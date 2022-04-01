@@ -17,4 +17,13 @@ class Posts extends Model
    public function category(){
        return $this->belongsTo(category::class);
    }
+
+   public function postedBy()
+      {
+         return $this->belongsTo('App\User');
+      }
+      protected $table = 'posts';
+      protected $fillable = ['title', 'excrept', 'body'];
+
+    
 }

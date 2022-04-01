@@ -3,7 +3,9 @@
 
 @section('container')
 <h1 class="mb-5">{{$post->title}}</h1>
-<p> By. Jancokers in{{ $post->category->name }}</p>
+<p> By. Jancokers in <a href="/categories/{{ $post->category->slug }}">
+    {{ $post->category->name }}</a>
+</p>
 {{!! $post->body!!}}
 <a href="/blog">Back Home</a>
 @endsection

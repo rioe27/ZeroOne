@@ -22,6 +22,12 @@ class PostController extends Controller
            ]);
     }
 
+    public function showArticle($slug)
+    {
+        $article = Posts::where('slug', $slug)->firstOrFail();
+        return view('posts', compact('posts'));
+    }
+
    // public function tampil(){
     //    $data= Posts::select('*')->get();
     //    return view('post.blade',['post'=>$post]);
